@@ -19,7 +19,7 @@ public class HashTablet {
         for (int i = 1; i <=2; i++) {
              
             System.out.println("Ingrese el nombre del estudiante : "+i);
-            String nombre;nombre =leer.nextLine(); 
+          objeto.setNombre(leer.nextLine()); 
             estudiante.put("a" +i,String.valueOf(nombre));
       
             System.out.println("Ingrese el carnet del estudiante : "+i);
@@ -29,13 +29,12 @@ public class HashTablet {
            System.out.println("Ingrese el codigo de carrera del estudiante : "+i);
              objeto.setCodigoCarrera(Integer.parseInt(leer.nextLine()));
             estudiante.put("c" +i,String.valueOf(objeto.codigoCarrera));
-   
-         
+        }
+            for (int j = 1; j <=5; j++) {
+             System.out.println("Nombre del estudiante  "+j+":"+objeto.getNombre());
+             System.out.println("Carnet del estudiante "+j+":"+objeto.getCarnet());
+             System.out.println("Codigo de Carrera del estudiante "+j+":"+objeto.getCodigoCarrera());
     }
-       
-             System.out.println("Nombre :"+nombre);
-             System.out.println("Carnet :"+objeto.getCarnet());
-             System.out.println("Codigo de Carrera :"+objeto.getCodigoCarrera());
         }
     }
   

@@ -12,6 +12,12 @@ public class ejercicio3 {
   int carnet;
   String nombre;
    int codigoCarrera;
+String registro;
+
+    @Override
+    public String toString() {
+        return "{" + "carnet=" + carnet + ", nombre=" + nombre + ", codigoCarrera=" + codigoCarrera + ", registro=" + registro + '}';
+    }
 
     public ejercicio3(int carnet, String nombre, int codigoCarrera) {
         this.carnet = carnet;
