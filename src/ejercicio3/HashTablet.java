@@ -20,15 +20,15 @@ public class HashTablet {
              
             System.out.println("Ingrese el nombre del estudiante : "+i);
           String nombre=leer.nextLine(); 
-            estudiante.put("nombre alumno" +i,String.valueOf(nombre));
+            estudiante.put("nombreAlumno" +i,String.valueOf(nombre));
       
             System.out.println("Ingrese el carnet del estudiante : "+i);
              objeto.setCarnet(Integer.parseInt(leer.nextLine())); 
-            estudiante.put("carnet alumno" +i,String.valueOf(objeto.carnet));
+            estudiante.put("carnetAlumno" +i,String.valueOf(objeto.carnet));
            
            System.out.println("Ingrese el codigo de carrera del estudiante : "+i);
              objeto.setCodigoCarrera(Integer.parseInt(leer.nextLine()));
-            estudiante.put("Ccarrera alumno" +i,String.valueOf(objeto.codigoCarrera));
+            estudiante.put("CcarreraAlumno" +i,String.valueOf(objeto.codigoCarrera));
            
         }
          System.out.println(""+estudiante);
