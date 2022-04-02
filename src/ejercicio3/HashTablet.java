@@ -16,7 +16,7 @@ public class HashTablet {
      HashTablet codigoC =new HashTablet();
         Hashtable <String,String> estudiante = new Hashtable <String,String>();
     ejercicio3 objeto = new ejercicio3();
-        for (int i = 1; i <=2; i++) {
+        for (int i = 1; i <=5; i++) {
              
             System.out.println("Ingrese el nombre del estudiante : "+i);
           objeto.setNombre(leer.nextLine()); 
