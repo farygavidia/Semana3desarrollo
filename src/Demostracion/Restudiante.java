@@ -10,8 +10,8 @@ public class Restudiante {
        double promedio;
        
     Estudiante objeto = new Estudiante();
-    //Estudiante objeto1 = new Estudiante("Javier", "Laínez");
-    //Estudiante objeto2 = new Estudiante(23545, "Javier", "Laínez", 19);
+    //Estudiante objeto1 = new Estudiante("Farina", "Gavidia");
+    //Estudiante objeto2 = new Estudiante(231235, "Farina", "Gavidia", 21);
     
     Scanner leer = new Scanner(System.in);
     
